@@ -1,3 +1,3 @@
-lesson-8
-Домашня робота позиціонування секцій, оформлення кнопок. Виправлення помилок з минулих домашок.
- https://alonka2022.github.io/lesson-8/
+lesson-9
+Домашня робота flexbox
+https://alonka2022.github.io/lesson-9/
