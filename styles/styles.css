@@ -166,6 +166,7 @@
     .companies__list {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         flex-wrap: wrap;
         gap: 80px;
         list-style: none;
@@ -281,6 +282,98 @@
     .container__account-text {
         padding-top: 16px;
     }
+
+        /* TEAM*/
+    
+    .team {
+        padding: 170px 0 190px;
+        text-align: center;
+    }
+
+    .team__text_main {
+        padding-bottom: 60px;
+    }
+
+    .team__text {
+        align-items: center;
+        padding-bottom: 30px;
+    }
+
+    .container__items-team {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 55px;
+    }
+
+    .team__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 30%;
+        border: 1px solid #D4D2E3;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .img__team {
+        padding-bottom: 40px;
+    } 
+
+    .team__title-h3 {
+        padding-bottom: 7px;
+    }
+
+    .team__title-h4 {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 1.8px;
+        text-transform: uppercase;
+        padding-bottom: 15px;
+    }
+
+    .team__container-icons {
+        display: flex;
+        gap: 16px;
+        padding-bottom: 60px;
+    }
+
+    .team__link {
+        background-color: #F2F1FA;
+        border-radius: 8px;
+        padding: 9px;
+    }
+
+
+    .team__icon {
+        display: flex;
+        width: 18px;
+        height: 18px;
+        fill: currentColor;
+	    color: #8d8ba7;
+    }
+
+    .team__link:hover {
+        background-color: #5f5c7f;
+    }
+
+    .team__link:hover .icon{
+        color: #F2F1FA;
+    }
+
+    .team__link:active {
+        background-color: #A4A2C4;
+    }
+
+    .team__link:active .icon{
+        color: #FFFFFF;
+    }
+
+
+
 
     /* PAYMENTS*/
 
