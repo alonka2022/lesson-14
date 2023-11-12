@@ -1,3 +1,3 @@
-lesson-9
-Домашня робота flexbox
-https://alonka2022.github.io/lesson-9/
+lesson-11
+Homework: added a new section and svg-sprite.
+https://alonka2022.github.io/lesson-11/
