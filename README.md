@@ -1,3 +1,3 @@
-lesson-11
-Homework: added a new section and svg-sprite.
-https://alonka2022.github.io/lesson-11/
+lesson-12
+Homework: position
+https://alonka2022.github.io/lesson-12/
