@@ -12,7 +12,7 @@
 </head>
 <body class="body">
     <header class="header-nav">
-        <nav class="container">
+        <nav class="container nav__container">
             <ul class="header-nav__list">
                 <li class="header-nav__item"><a class="header__link" href="">Home</a></li>
                 <li class="header-nav__item"><a class="header__link" href="">About</a></li>
@@ -50,7 +50,14 @@
                         <a class="button button_secondary" href="">Talk to sales</a>
                     </div>
                 </div>
+                <div class="hero__chat">
+                    <button class="button__chat"><svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none">
+                        <path d="M32.0416 50.7959L33.3065 48.6591L30.2944 46.8762L29.0295 49.0133L32.0416 50.7959ZM22.6935 48.6591L23.9585 50.7959L26.9703 49.0133L25.7054 46.8762L22.6935 48.6591ZM29.0295 49.0133C28.5799 49.773 27.4202 49.773 26.9703 49.0133L23.9585 50.7959C25.7635 53.8456 30.2365 53.8456 32.0416 50.7959L29.0295 49.0133ZM24.5 6.41663H31.5V2.91663H24.5V6.41663ZM49.5834 24.5V26.8333H53.0834V24.5H49.5834ZM6.41669 26.8333V24.5H2.91669V26.8333H6.41669ZM2.91669 26.8333C2.91669 29.5274 2.91573 31.6355 3.03174 33.3358C3.14885 35.052 3.39089 36.4802 3.93796 37.8009L7.17154 36.4616C6.83055 35.6384 6.62858 34.6355 6.52365 33.0976C6.41764 31.5441 6.41669 29.5752 6.41669 26.8333H2.91669ZM18.2059 42.5637C15.2765 42.5131 13.7416 42.3269 12.5384 41.8285L11.199 45.062C13.0773 45.8399 15.2166 46.0126 18.1456 46.063L18.2059 42.5637ZM3.93796 37.8009C5.29967 41.0883 7.91156 43.7003 11.199 45.062L12.5384 41.8285C10.1085 40.8219 8.17803 38.8915 7.17154 36.4616L3.93796 37.8009ZM49.5834 26.8333C49.5834 29.5752 49.5824 31.5441 49.4765 33.0976C49.3715 34.6355 49.1694 35.6384 48.8285 36.4616L52.062 37.8009C52.6092 36.4802 52.8512 35.052 52.9683 33.3358C53.0843 31.6355 53.0834 29.5274 53.0834 26.8333H49.5834ZM37.8544 46.063C40.7834 46.0126 42.9229 45.8399 44.8009 45.062L43.4616 41.8285C42.2586 42.3269 40.7235 42.5131 37.7942 42.5637L37.8544 46.063ZM48.8285 36.4616C47.8219 38.8915 45.8916 40.8219 43.4616 41.8285L44.8009 45.062C48.0884 43.7003 50.7003 41.0883 52.062 37.8009L48.8285 36.4616ZM31.5 6.41663C35.3528 6.41663 38.1197 6.41847 40.2778 6.62366C42.41 6.82638 43.7666 7.21516 44.8481 7.87795L46.677 4.89371C44.9529 3.83729 42.9973 3.36647 40.6091 3.13939C38.2469 2.91478 35.2852 2.91663 31.5 2.91663V6.41663ZM53.0834 24.5C53.0834 20.7148 53.0852 17.7531 52.8605 15.3909C52.6335 13.0026 52.1626 11.047 51.1063 9.3231L48.122 11.1518C48.7849 12.2334 49.1736 13.5901 49.3764 15.7222C49.5815 17.8803 49.5834 20.6471 49.5834 24.5H53.0834ZM44.8481 7.87795C46.1825 8.69564 47.3044 9.81751 48.122 11.1518L51.1063 9.3231C50.0001 7.51782 48.4823 5.99999 46.677 4.89371L44.8481 7.87795ZM24.5 2.91663C20.7149 2.91663 17.7532 2.91478 15.3909 3.13939C13.0027 3.36647 11.0471 3.83729 9.32316 4.89371L11.1519 7.87795C12.2335 7.21516 13.5901 6.82638 15.7222 6.62366C17.8804 6.41847 20.6471 6.41663 24.5 6.41663V2.91663ZM6.41669 24.5C6.41669 20.6471 6.41853 17.8803 6.62372 15.7222C6.82644 13.5901 7.21522 12.2334 7.87801 11.1518L4.89377 9.3231C3.83735 11.047 3.36653 13.0026 3.13945 15.3909C2.91484 17.7531 2.91669 20.7148 2.91669 24.5H6.41669ZM9.32316 4.89371C7.51788 5.99999 6.00005 7.51782 4.89377 9.3231L7.87801 11.1518C8.6957 9.81751 9.81757 8.69564 11.1519 7.87795L9.32316 4.89371ZM25.7054 46.8762C25.2318 46.0758 24.816 45.3695 24.4116 44.8147C23.9855 44.2304 23.4972 43.7042 22.8197 43.3101L21.06 46.3358C21.1707 46.3999 21.3214 46.5173 21.583 46.8762C21.8662 47.2649 22.1862 47.8018 22.6935 48.6591L25.7054 46.8762ZM18.1456 46.063C19.1701 46.0807 19.819 46.0938 20.3137 46.1484C20.776 46.1997 20.9552 46.2746 21.06 46.3358L22.8197 43.3101C22.1366 42.9128 21.4258 42.7501 20.6989 42.6696C20.0046 42.5929 19.1654 42.5803 18.2059 42.5637L18.1456 46.063ZM33.3065 48.6591C33.8138 47.8018 34.1337 47.2649 34.4169 46.8762C34.6785 46.5173 34.8292 46.3999 34.9398 46.3358L33.1803 43.3101C32.5029 43.7042 32.0143 44.2304 31.5885 44.8147C31.1841 45.3695 30.7683 46.0758 30.2944 46.8762L33.3065 48.6591ZM37.7942 42.5637C36.8345 42.5803 35.9954 42.5929 35.301 42.6696C34.5742 42.7501 33.8635 42.9128 33.1803 43.3101L34.9398 46.3358C35.0448 46.2746 35.224 46.1997 35.6863 46.1484C36.1809 46.0938 36.8298 46.0807 37.8544 46.063L37.7942 42.5637Z" fill="white"/>
+                        <path d="M18.6666 25.6666H18.6876M27.979 25.6666H28M37.3123 25.6666H37.3333" stroke="white" stroke-width="4.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg></button>
+                   </div>
             </div>
+          
         </section>
         <section class="companies">
             <div class="container container__companies">
@@ -130,14 +137,18 @@
         </section>
         <section class="team">
             <div class="container container__team">
+                <div class="team__info">
                 <h2 class="title team__title-h2">Meet our team members</h2>
                 <p class="text team__text_main">Lorem ipsum dolor sit amet consectetur adipiscing elit volutpat gravida malesuada quam commodo id integer nam.</p>
+                </div>
                 <div class="container container__items-team">
                     <div class="team__item">
                         <img class="img__team" src="./images/placeholder-team.svg" width="390" height="360">
+                        <div class="team__items-content">
                         <h3 class="title team__title-h3">John Carter</h3>
                         <h4 class="title team__title-h4">CEO & Co-Founder</h4>
                         <p class="text team__text">Lorem ipsum dolor sit amet consecte adipiscing elit amet hendrerit pretium nulla sed enim iaculis mi. </p>
+                        </div>
                         <div class="team__container-icons">
 							<a class="link team__link" href="#">
 								<svg class="icon team__icon">
@@ -158,9 +169,11 @@
 					  </div>
                     <div class="team__item">
                         <img class="img__team" src="./images/placeholder-team.svg" width="390" height="360">
-                         <h3 class="title team__title-h3">Sophie Moore</h3>
-                         <h4 class="title team__title-h4">CEO & Co-Founder</h4>
-                         <p class="team__text">Lorem ipsum dolor sit amet consecte adipiscing elit amet hendrerit pretium nulla sed enim iaculis mi. </p>
+                        <div class="team__items-content">
+                            <h3 class="title team__title-h3">Sophie Moore</h3>
+                            <h4 class="title team__title-h4">CEO & Co-Founder</h4>
+                            <p class="text team__text">Lorem ipsum dolor sit amet consecte adipiscing elit amet hendrerit pretium nulla sed enim iaculis mi. </p>
+                            </div>
                          <div class="team__container-icons">
                             <a class="link team__link" href="#">
                             <svg class="icon team__icon">
@@ -181,9 +194,11 @@
                      </div>
                      <div class="team__item">
                         <img class="img__team" src="./images/placeholder-team.svg" width="390" height="360">
-                         <h3 class="title team__title-h3">Matt Cannon</h3>
+                        <div class="team__items-content">
+                        <h3 class="title team__title-h3">Matt Cannon</h3>
                          <h4 class="title team__title-h4">VP of Marketing</h4>
                          <p class="team__text">Lorem ipsum dolor sit amet consecte adipiscing elit amet hendrerit pretium nulla sed enim iaculis mi. </p>
+                        </div>
                          <div class="team__container-icons">
                             <a class="link team__link" href="#">
                             <svg class="icon team__icon">
@@ -204,9 +219,11 @@
                      </div>
                      <div class="team__item">
                         <img class="img__team" src="./images/placeholder-team.svg" width="390" height="360">
-                         <h3 class="title team__title-h3">Andy Smith</h3>
+                        <div class="team__items-content">
+                        <h3 class="title team__title-h3">Andy Smith</h3>
                          <h4 class="title team__title-h4">VP of Design</h4>
                          <p class="team__text">Lorem ipsum dolor sit amet consecte adipiscing elit amet hendrerit pretium nulla sed enim iaculis mi. </p>
+                        </div>
                          <div class="team__container-icons">
                             <a class="link team__link" href="#">
 								<svg class="icon team__icon">
@@ -227,9 +244,11 @@
                      </div>
                      <div class="team__item">
                         <img class="img__team" src="./images/placeholder-team.svg" width="390" height="360">
-                         <h3 class="title team__title-h3">Lily Woods</h3>
+                        <div class="team__items-content">
+                        <h3 class="title team__title-h3">Lily Woods</h3>
                          <h4 class="title team__title-h4">VP of Product</h4>
                          <p class="team__text">Lorem ipsum dolor sit amet consecte adipiscing elit amet hendrerit pretium nulla sed enim iaculis mi. </p>
+                        </div>
                          <div class="team__container-icons">
                             <a class="link team__link" href="#">
                             <svg class="icon team__icon">
@@ -250,9 +269,11 @@
                      </div>
                      <div class="team__item">
                         <img class="img__team" src="./images/placeholder-team.svg" width="390" height="360">
-                         <h3 class="title team__title-h3">Patrick Meyer</h3>
+                        <div class="team__items-content">
+                        <h3 class="title team__title-h3">Patrick Meyer</h3>
                          <h4 class="title team__title-h4">VP of Sales</h4>
                          <p class="team__text">Lorem ipsum dolor sit amet consecte adipiscing elit amet hendrerit pretium nulla sed enim iaculis mi. </p>
+                        </div>
                          <div class="team__container-icons">
                             <a class="link team__link" href="#">
 								<svg class="icon team__icon">

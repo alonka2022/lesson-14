@@ -9,11 +9,6 @@
     margin: 0;
 }
 
-img {
-    max-width: 100%;
-}
-
-
 .body {
     background-color: #fff;
     color: var(--secondary-color);
@@ -94,10 +89,21 @@ img {
 
     /* ----------------------HEADER---------------------- */
 
+
+    .header-nav {
+        position: sticky;
+        top: 0;
+        width: 100%;
+        background-color: #F9F9FF;
+        padding: 40px 0;
+       }
+
+
     .header-nav__list {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        gap: 30px;
         list-style: none; 
         padding: 0; 
         margin: 0;
@@ -107,15 +113,6 @@ img {
         flex: 1;
         text-align: center;
     }
-
-    .header-nav__item {
-        margin-right: 30px;
-    }
-
-    .header-nav {
-        background-color: #F9F9FF;
-        padding: 40px 0;
-       }
 
     .header__link {
         line-height: 18px;
@@ -144,19 +141,35 @@ img {
     .hero__title-h1 {
         font-size: 56px;
         line-height: 66px;
-    }
-
-    .container__button-hero {
-        padding-top: 45px;
+        margin-bottom: 20px;
     }
 
     .hero__text {
-        padding-top: 20px;
+        margin-bottom: 45px;
     }
 
     .container__hero {
         display: flex;
         align-items: center;
+    }
+
+    .hero__chat {
+        position: fixed;
+        right: 110px;
+        bottom: 70px;
+    }
+
+    
+    .button__chat {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        border: none;
+        background-color: var(--primary-color);
+        cursor: pointer; 
     }
 
     /* COMPANIES*/
@@ -202,10 +215,14 @@ img {
 
 
     .results__list-item {
-        text-align: center;
-        width: 50%;
-        padding: 90px 50px; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         flex-wrap: wrap;
+        width: 50%;
+        min-height: 220px;
+        padding: 20px 20px; 
         border: 1px solid #D4D2E3;
     }
 
@@ -284,8 +301,16 @@ img {
         text-align: center;
     }
 
-    .team__text_main {
-        padding-bottom: 60px;
+    .team__info {
+        margin-bottom: 50px;
+        text-align: center;
+        width: 610px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .team__title-h2 {
+        padding-bottom: 20px;
     }
 
     .team__text {
@@ -313,7 +338,7 @@ img {
     }
 
     .img__team {
-        padding-bottom: 40px;
+        margin-bottom: 40px;
     } 
 
     .team__title-h3 {
@@ -327,6 +352,10 @@ img {
         letter-spacing: 1.8px;
         text-transform: uppercase;
         padding-bottom: 15px;
+    }
+
+    .team__items-content {
+        padding: 20px;
     }
 
     .team__container-icons {
@@ -632,6 +661,10 @@ img {
     width: 610px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.founders__img {
+    max-width: 100%;
 }
 
 .founders__items {
