@@ -888,3 +888,7 @@ img {
 .form__button {
     color: white;
 }
+
+.form__button:hover {
+    background-color: #5F5C7F;
+}
